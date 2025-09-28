@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas - Student Tasks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Tus Tareas</h1>
+    <button id="logoutBtn">Cerrar Sesión</button>
+    <form id="createTaskForm">
+        <input type="text" id="title" placeholder="Título" required>
+        <textarea id="description" placeholder="Descripción"></textarea>
+        <button type="submit">Crear Tarea</button>
+    </form>
+    <ul id="taskList"></ul>
+    <div id="taskMessage"></div>
+</body>
+</html>
